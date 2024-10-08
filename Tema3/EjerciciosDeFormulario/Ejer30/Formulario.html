@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+ 
+        form{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+        }
+    </style>
+    <form action="./alta.php" method="get">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" id="Nombre">
+
+        <label for="Correo_Electronico">Correo Electronico</label>
+        <input type="text" name="Correo_Electronico" id="Correo_Electronico">
+
+        <label for="Pagina_Web">Pagina Web</label>
+        <input type="text" name="Pagina_Web" id="Pagina_Web">
+
+        <label for="Sugerencia">Sugerencia</label>
+        <input type="textArea" name="Sugerencia" id="Sugerencia">
+
+        <input type="submit" name="Enviar" id="Enviar" value="Enviar">
+    </form>
+</body>
+
+</html>base
